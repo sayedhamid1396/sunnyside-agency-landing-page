@@ -44,7 +44,7 @@ a {
 .top__header {
     height: 100vh;
     width: 100%;
-    background: url(/images/mobile/image-header.jpg) center center;
+    background: url(./images/mobile/image-header.jpg) center center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -143,7 +143,6 @@ a {
 }
 
 .service {
-    /* height: 100vh; */
     display: flex;
     flex-direction: column-reverse;
 
@@ -162,7 +161,6 @@ a {
 
 .service__content {
     width: 100%;
-    /* height: 60%; */
     justify-self: center;
     display: flex;
     flex-direction: column;
@@ -191,13 +189,11 @@ a {
 
 
 .service--btn {
-    /* display: block; */
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 1.2rem;
     color: var(--Very-dark-desaturated-blue);
     text-transform: uppercase;
-    /* margin-top: 1rem; */
     position: relative;
     z-index: 1;
 }
@@ -225,17 +221,9 @@ a {
 }
 
 .services__secondary {
-
-    /* height: 100vh; */
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; */
-    /* padding-bottom: 3rem; */
 
 }
 
@@ -406,10 +394,6 @@ picture {}
     margin: 3rem 0;
 }
 
-/* .social__links--icon path {
-    transition: all .5s ease-in-out;
-} */
-
 .social__links--icon:hover path {
     fill: var(--White);
 }
@@ -424,12 +408,6 @@ picture {}
 .attribution a {
     text-decoration: underline;
 }
-
-/* @media screen and(max-width:1000px) {
-    .top__nav--menu {
-        gap: 1rem;
-    }
-} */
 
 
 @media screen and (min-width: 400px) {
@@ -523,95 +501,11 @@ picture {}
         margin: 3rem 0;
     }
 
-    /* .social__links--icon path {
-        transition: all .5s ease-in-out;
-    } */
 
     .social__links--icon:hover path {
         fill: var(--White);
     }
 
-
-
-
-
-
-
-    /* body {
-        line-height: 2;
-    }
-
-
-
-    .toggler {
-        display: inline-block;
-    }
-
-    .top__nav {
-        position: relative;
-    }
-
-    .top__nav--menu {
-        flex-direction: column;
-        width: 50%;
-        height: 100vh;
-        background: rgb(154, 228, 212);
-        position: absolute;
-        top: 0;
-        right: -50%;
-        font-size: 2rem;
-        padding: 2.5rem;
-    }
-
-    .hero {
-        margin-top: 10vh;
-        line-height: 1.5;
-    }
-
-    .hero--title {
-        font-size: 3rem;
-    }
-
-    .services {
-        grid-template-columns: 1fr;
-        text-align: center;
-
-    }
-
-    .service {
-        padding: 2rem 0;
-        grid-template-columns: 1fr;
-    }
-
-    .services .service:nth-child(1) {
-        grid-row: 2;
-    }
-
-    .service--title {
-        width: 80%;
-        line-height: 1;
-    }
-
-    .service--body {
-        width: 80%;
-
-    }
-
-    .service--description_footer {
-        margin: 1rem auto;
-    }
-
-    .testimonials--body {
-        flex-direction: column;
-    }
-
-    .service-secondary {
-        height: 80vh;
-    }
-
-    .service-secondary_bg {
-        height: 100%;
-    } */
 }
 
 @media screen and (min-width: 660px) {
@@ -630,7 +524,6 @@ picture {}
         list-style: none;
         display: flex;
         font-size: 2rem;
-        /* padding: 2.5rem; */
         gap: 2rem;
     }
 
@@ -652,7 +545,6 @@ picture {}
         height: 80vh;
         overflow: hidden;
         flex-direction: row;
-        /* align-items: center; */
         justify-content: center;
 
     }
@@ -680,7 +572,7 @@ picture {}
         font-size: 4VW;
     }
 
-    .service--body {}
+
 
     .service-image_container {
         flex: 1;
@@ -689,20 +581,7 @@ picture {}
     .service--img {
         width: 100%;
         height: 100%;
-
-
-
     }
-
-    /* .service-1 .service--img {
-        background: url(/images/desktop/image-transform.jpg) center center;
-
-    }
-
-    .service-2 .service--img {
-        background: url(/images/desktop/image-stand-out.jpg) center center;
-
-    } */
 
     .services__secondary {
 
@@ -720,16 +599,11 @@ picture {}
         display: block;
         width: 100%;
         height: 100%;
-        /* position: absolute; */
-        object-fit: cover;
-        /* top: 0;
-        bottom: 0; */
         z-index: 1;
     }
 
     .service--secondary-content {
         position: absolute;
-        /* width: 50%; */
         text-align: center;
         bottom: 10%;
         z-index: 2;
