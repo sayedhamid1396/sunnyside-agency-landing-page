@@ -65,11 +65,56 @@ a {
     background-repeat: none;
     width: 30px;
     height: 30px;
-
+    cursor: pointer;
 }
 
 .top__nav--menu {
     display: none;
+
+}
+
+.mobile__nav {
+    display: none;
+    position: absolute;
+    width: 80%;
+
+    background: var(--White);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    padding: 3rem 0;
+    border-radius: 1px;
+    clip-path: polygon(91% 8%, 100% 0, 100% 100%, 0 100%, 0 8%);
+}
+
+.nav-menu_item {
+    margin-bottom: 2rem;
+}
+
+.mobile__nav--menu .menu_item-link {
+    color: var(--Dark-grayish-blue);
+}
+
+.mobile__nav--menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile__nav--menu .active {
+
+    background: var(--Yellow);
+    color: var(--Dark-desaturated-blue);
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    border-radius: 1.5rem;
 }
 
 .hero {
